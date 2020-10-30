@@ -66,24 +66,40 @@ p {
     line-height: 1.4;
 }
 
-.top-header{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.lambda-logo{
-    justify-content: left;
-}
-
-.nav-header{
-    display: flex;
-}
-
 
 
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+.top-header{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.lambda-logo{
+    width: 20%;
+    justify-content: left;
+    margin: 1% 0;
+}
+
+header .nav-header a{
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: flex-end;
+    text-decoration: none;
+}
+
+.tlink{
+    margin:0 4%
+}
+
+
+.img-header{
+    margin: 2% 0;
 }
 
 .top-content {
@@ -119,14 +135,42 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
+.box1{
+    background: teal;
+}
+.box2{
+    background: gold;
+}
+.box3{
+    background: cadetblue;
+}
+.box4{
+    background: coral;
+}
+.box5{
+    background: crimson;
+}
+.box6{
+    background: forestgreen;
+}
+.box7{
+    background: darkorchid;
+}
+.box8{
+    background: hotpink;
+}
+.box9{
+    background: indigo;
+}
+.box10{
+    background: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -158,4 +202,21 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+
+
+
+
+
+
+/* about.html specific  style below */
+
+.container-about-page{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2% 0;
 }
