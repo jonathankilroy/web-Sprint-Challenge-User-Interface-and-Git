@@ -213,7 +213,8 @@ footer nav a {
 
 /* about.html specific  style below */
 
-.container-about-page{
+.img-gallery{
+    width:49%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
