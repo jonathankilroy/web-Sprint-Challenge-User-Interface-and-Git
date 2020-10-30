@@ -66,6 +66,21 @@ p {
     line-height: 1.4;
 }
 
+.top-header{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lambda-logo{
+    justify-content: left;
+}
+
+.nav-header{
+    display: flex;
+}
+
+
+
 .container {
     width: 800px;
     margin: 0 auto;
